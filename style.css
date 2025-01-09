@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", serif;
+  font-style: normal;
+}
+
+body {
+  background-color: #2d2d2e;
+}
+
+.title {
+  text-align: center;
+  color: #bd5631;
+}
+.title {
+  font-family: "Roboto", serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 50px;
+  padding: 50px;
+}
+#add-sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#add-btn {
+  background-color: #bd5631;
+  font-size: 20px;
+  color: wheat;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+}
+#todo-input {
+  background-color: #18181a;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  width: 50%;
+  margin-right: 20px;
+  color: #b6b6b8;
+  padding: 20px;
+  font-size: 16px;
+}
+#todo-input::placeholder {
+  color: #b6b6b8;
+}
+#todo {
+  display: flex;
+}
+
+.btn {
+  background-color: #bd5631;
+  font-size: 16px;
+  color: wheat;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: none;
+  margin: 10px;
+}
+.edit-btn {
+  background-color: #3170d6;
+}
+.delete-btn {
+  background-color: #bd5631;
+}
+#todo-sec {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  margin: 50px;
+}
+#todo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #202021;
+  width: 40%;
+  border-radius: 10px;
+  padding: 0px 10px 0px 20px;
+  margin-bottom: 15px;
+}
+#todo-name {
+  text-align: start;
+  color: #b6b6b8;
+  margin-right: 10px;
+  font-size: 15px;
+}
+#btn-sec {
+  right: 0px;
+}
+
+@media (max-width: 1000px) {
+  #todo {
+    width: 80%;
+  }
+
+  #todo-input {
+    width: 60%;
+  }
+}
+.btn-sec {
+  display: flex;
+  align-items: center;
+}
+/* #checked {
+  display: none;
+} */
+img {
+  width: 30px;
+}
+.sub-edit-btn {
+  background-color: #3170d6;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+#edit-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+.sub-cancel-btn {
+  background-color: #bd5631;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+#todo-edit-input {
+  background-color: #18181a;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  width: 50%;
+  margin-right: 20px;
+  color: #b6b6b8;
+  padding: 20px;
+  font-size: 16px;
+}
+#wrapper {
+  display: none;
+  background: rgba(255, 255, 255, 0.2);
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+}
